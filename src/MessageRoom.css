@@ -1,0 +1,118 @@
+.messenger {
+  height: 90vh !important;
+}
+.messenger_header,
+.messenger_footer {
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid rgb(223, 223, 223);
+}
+
+.messenger_left {
+  background-color: white;
+  overflow: scroll !important;
+}
+.messenger_header_comp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1rem;
+  flex-direction: row;
+}
+.fa-info-circle {
+  color: #0096ff;
+  font-weight: bolder;
+  font-size: large;
+}
+.friends_left {
+  border: 1px solid rgb(223, 223, 223);
+}
+.messenger_footer {
+  bottom: 0;
+}
+.input_message {
+  width: 50%;
+  margin: 1rem;
+  border-radius: 20px;
+  height: 35px;
+  border: 1px solid rgb(223, 223, 223);
+
+  padding: 0 1rem;
+  background-color: rgb(231, 231, 231);
+}
+.message_container {
+  margin-top: 80px;
+  height: 75%;
+  width: 100%;
+  overflow: scroll;
+  background-color: white;
+}
+.message_reciever {
+  width: 50%;
+  position: relative;
+  float: left;
+  word-break: break-all;
+  margin: 0.5rem 1rem 1rem 3rem;
+}
+.message_sender {
+  width: 50%;
+  text-align: right;
+  position: relative;
+  word-break: break-all;
+  position: sticky;
+  float: right;
+  color: white;
+  margin: 1rem 1rem 0rem 3rem;
+  animation: fade 0.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.message_senderInner {
+  width: fit-content !important;
+  position: relative;
+  animation: fade 0.5s;
+
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+
+  float: right;
+  background-color: #0096ff;
+}
+.message_recInner {
+  width: fit-content !important;
+  padding: 0.5rem 1rem;
+  animation: fade 0.5s;
+
+  border-radius: 20px;
+
+  background-color: rgb(238, 238, 238);
+}
+.photoUrl {
+  border-radius: 50%;
+  position: absolute;
+  left: -50px;
+  bottom: 0;
+}
+.message_time {
+  border-radius: 50%;
+  position: absolute;
+  font-weight: bold;
+  font-size: small;
+  color: #0096ff;
+  white-space: nowrap;
+  line-break: strict;
+  left: 15px;
+  bottom: -15px;
+}

@@ -1,0 +1,346 @@
+@media (max-width: 1100px) {
+  .header_search {
+    margin-left: 0.5rem !important;
+    width: 100px !important;
+  }
+  .stories {
+    height: 90% !important;
+    width: 120px !important;
+  }
+  .left,
+  .right {
+    width: 20% !important;
+  }
+  .center {
+    width: 60% !important;
+  }
+  .about_div {
+    width: 90% !important;
+  }
+  .about_div_main {
+    width: 90% !important;
+  }
+  .timeline_people_option:hover .info_dropdown {
+    width: 500px !important;
+
+    top: 55px !important;
+
+    left: -100px !important;
+  }
+  .timeline_people_option:hover .info_dropdown_friends {
+    left: -200 !important;
+  }
+}
+@media (max-width: 1026px) {
+  .stories {
+    height: 90% !important;
+    width: 110px !important;
+  }
+}
+@media (max-width: 957px) {
+  .header_search {
+    margin-left: 0.5rem !important;
+    width: 100px !important;
+  }
+  .header_Center_icons {
+    width: 40px !important;
+  }
+  .header_Center_icons:hover {
+    width: 40px !important;
+  }
+  .content {
+    flex-direction: column !important;
+    height: 100% !important;
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .addaccount {
+    width: 200px;
+    height: 150px !important;
+  }
+  .addaccount:active {
+    height: 145px !important;
+  }
+  .login_comp {
+    width: 100% !important;
+  }
+  .right {
+    display: none !important;
+  }
+  .center {
+    width: 80% !important;
+  }
+  .start {
+    width: 100% !important;
+    height: 220px !important;
+  }
+  .stories {
+    height: 90% !important;
+    width: 130px !important;
+  }
+}
+@media (max-width: 850px) {
+  .main_item_box {
+    width: 80% !important;
+  }
+  .start {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .stories {
+    height: 90% !important;
+    width: 120px !important;
+  }
+  .timeline_people_option:hover .info_dropdown {
+    width: 400px !important;
+    top: 55px !important;
+
+    left: -100px !important;
+  }
+}
+@media (max-width: 800px) {
+  .header_search {
+    display: none !important;
+  }
+}
+@media (max-width: 770px) {
+  .start {
+    width: 100% !important;
+    height: 170px !important;
+  }
+  .stories {
+    height: 90% !important;
+    width: 100px !important;
+  }
+}
+@media (max-width: 699px) {
+  .header_search {
+    display: none !important;
+  }
+  .img_people_container {
+    width: 90% !important;
+  }
+  .start {
+    width: 100% !important;
+    height: 200px !important;
+  }
+  .stories {
+    height: 90% !important;
+    width: 110px !important;
+  }
+  .center {
+    width: 90% !important;
+  }
+  .left_text {
+    display: none !important;
+  }
+  .left {
+    width: fit-content !important;
+  }
+  .header_Center_icons {
+    width: 40px !important;
+  }
+  .header_logo {
+    display: none;
+  }
+}
+@media (max-width: 653px) {
+  .start {
+    width: 100% !important;
+    height: 160px !important;
+  }
+  .storydown {
+    justify-content: center !important;
+    align-items: center !important;
+    height: 40%;
+  }
+  .stories {
+    height: 90% !important;
+    width: 90px !important;
+  }
+  .timeline_people_option:hover .info_dropdown {
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px !important;
+
+    position: absolute !important;
+    width: 500px !important;
+    background-color: white !important;
+    height: 300px !important;
+    top: 55px !important;
+
+    left: -120px !important;
+    transition: 0s ease !important;
+  }
+  /* .people {
+    flex-direction: column  !important;
+    align-items: center  !important;
+    justify-content: center  !important;
+    height: 200px  !important;
+  }
+  .follow_name {
+    justify-content: center  !important;
+    align-items: center  !important;
+  }
+  .follow_buttons {
+    justify-content: center  !important;
+  }
+  .friends_left {
+    height: 100% !important;
+    width: 150px  !important;
+    display: flex !important;
+    justify-content: center  !important;
+
+    flex-direction: column !important;
+    background-color: white !important;
+  }
+  .friends_right {
+    width: 80%  !important;
+    height: 100% !important;
+  } */
+  .friends {
+    height: 90vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    background-color: rgb(233, 244, 247) !important;
+  }
+  .friends_left {
+    height: 50% !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    overflow: scroll !important;
+    flex-direction: row !important;
+    background-color: white !important;
+  }
+  .friends_right {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+@media (max-width: 624px) {
+  .header {
+    height: 18vh !important;
+    flex-direction: column-reverse !important;
+  }
+  .header_Center,
+  .header_right {
+    width: 100% !important;
+    justify-content: space-evenly !important;
+  }
+  .header_right {
+  }
+  .timeline_people_user_image {
+    left: 35% !important;
+    z-index: 100 !important;
+  }
+  .storyRight {
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 533px) {
+  .storydown {
+    display: none !important;
+  }
+  .storyup {
+    height: 100% !important;
+  }
+  .start {
+    width: 100% !important;
+    height: 50px !important;
+  }
+  .stories {
+    height: 100% !important;
+    width: 50px !important;
+  }
+  .user_story {
+    position: relative !important;
+    top: 5px !important;
+    left: 5px !important;
+  }
+  .timeline_people_option:hover .info_dropdown {
+    width: 400px !important;
+
+    left: -90px !important;
+  }
+  .friendsMain {
+    width: 100% !important;
+  }
+  .time_people {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .time_people_name {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .timeline_people_option:hover .info_dropdown_friends {
+    width: 300px !important;
+
+    left: -75px !important;
+  }
+}
+@media (max-width: 437px) {
+  .timeline_people_option_conatainer {
+    height: 50px !important;
+    width: 100% !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    position: relative !important;
+    margin: 2rem auto 1rem auto !important;
+    background-color: white !important;
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.5) !important;
+  }
+  .timeline_people_option {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+    width: 30px !important;
+    color: gray !important;
+    font-weight: bold !important;
+  }
+  .timeline_people_option {
+    font-size: small !important;
+  }
+  .timeline_people_option:hover .info_dropdown {
+    width: 300px !important;
+
+    left: -50px !important;
+  }
+  .start {
+    margin-top: 6rem !important;
+  }
+  .timeline_people_option:hover .info_dropdown_friends {
+    width: 300px !important;
+
+    left: -80px !important;
+  }
+  .timeline_people_option:hover .info_dropdown_posts {
+    width: 300px !important;
+
+    left: 0px !important;
+  }
+}
+@media (max-width: 550px) {
+  .itemnone {
+    display: block !important;
+    height: 200px !important;
+  }
+  .right_item {
+    width: 200% !important;
+  }
+  .itemCenter {
+    width: 0% !important;
+  }
+  .product {
+    width: 80% !important;
+  }
+}

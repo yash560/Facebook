@@ -1,0 +1,38 @@
+.about_div_main {
+  width: 60%;
+  height: 100%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+}
+.about_div_left,
+.about_div_right {
+  width: 48%;
+}
+.about_div_comp {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(240, 240, 240);
+  margin: 0.2rem;
+  padding: 0.5rem;
+  display: flex;
+  font-weight: bolder;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about_div_comp_head {
+  background-color: rgb(255, 255, 255);
+  color: rgb(17, 148, 192);
+  font-size: large;
+  font-weight: bolder;
+}
+.icon_timeline {
+  margin-right: 0.5rem;
+  color: rgb(17, 148, 192);
+}
+.timeline_input {
+  border-radius: 5px;
+  width: 80%;
+  margin: 0.5rem 0 0.2rem 0;
+}

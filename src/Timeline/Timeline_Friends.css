@@ -1,0 +1,10 @@
+.friendsMain {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  height: fit-content;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
